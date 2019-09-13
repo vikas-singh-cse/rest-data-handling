@@ -1,0 +1,13 @@
+ * Running on http://127.0.0.1:5000/
+ * Restarting with reloader
+Printing tasks 1: [{'id': 1, 'title': 'Buy groceries', 'description': 'Milk, Cheese, Pizza, Fruit, Tylenol', 'done': False}, {'id': 2, 'title': 'Learn Python', 'description': 'Need to find a good Python tutorial on the web', 'done': False}]
+127.0.0.1 - - [12/Sep/2019 22:07:20] "GET /todo/api/v1.0/tasks?_=1568351233055 HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2019 22:07:38] "POST /todo/api/v1.0/tasks HTTP/1.1" 201 -
+127.0.0.1 - - [12/Sep/2019 22:07:41] "PUT /todo/api/v1.0/tasks/2 HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2019 22:07:42] "DELETE /todo/api/v1.0/tasks/1 HTTP/1.1" 200 -
+Printing tasks 1: [{'id': 2, 'title': 'Learn Python', 'description': 'Need to find a good Python tutorial on the web', 'done': True}, {'id': 3, 'title': 'Misc', 'description': 'books, medicines', 'done': False}]
+127.0.0.1 - - [12/Sep/2019 22:07:53] "GET /todo/api/v1.0/tasks?_=1568351266596 HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2019 22:08:10] "DELETE /todo/api/v1.0/tasks/2 HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2019 22:08:26] "POST /todo/api/v1.0/tasks HTTP/1.1" 201 -
+Printing tasks 1: [{'id': 3, 'title': 'Misc', 'description': 'books, medicines', 'done': False}, {'id': 4, 'title': 'Buy Software', 'description': 'Flash-python', 'done': False}]
+127.0.0.1 - - [12/Sep/2019 22:08:39] "GET /todo/api/v1.0/tasks?_=1568351309299 HTTP/1.1" 200 -
